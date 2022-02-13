@@ -7,6 +7,11 @@ body{
 }
 
 h1{
+    padding-left: 20px;
+}
+
+
+h2, h3{
     text-align: center;
 }
 
@@ -21,3 +26,28 @@ p {
 em strong{
     color: red;
 }
+
+.itens{
+    font-style: italic;
+}
+
+#info{
+    background: #CCCCCC;
+    padding: 30px;
+}
+
+ul{
+    display: inline-block;
+  width: 20%;
+  margin-right: 15% ;
+}
+
+#beneficios{
+background: whitesmoke;
+padding: 20px;
+}
+
+#cortando{
+    width: 50%;
+    vertical-align: middle;
+ }
