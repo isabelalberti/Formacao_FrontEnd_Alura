@@ -1,31 +1,91 @@
-header{
-    background: #BBBBBB;
-    padding: 20px 0; /* tudo dentro dele esteja neste limite*/
+header {
+  background: #bbbbbb;
+  padding: 20px 0; /* tudo dentro dele esteja neste limite*/
 }
 
-.caixa{
-    position: relative; /*mantém o ponto inicial mas levanta o elemento*/
-    width: 940px; /*largura padrão na web*/
-    margin: 0 auto;
+.caixa {
+  position: relative; /*mantém o ponto inicial mas levanta o elemento*/
+  width: 940px; /*largura padrão na web*/
+  margin: 0 auto;
 }
 
-nav li{
-    display: inline;
-    margin: 0 0 0 15px;
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
 }
 
-nav a{
-    text-transform: uppercase;/* transforma o texto para Maiúsculo*/
-    color: black;
-    font-weight: bold; /*Peso da fonte em negrito*/
-    font-size: 23px;
-    text-decoration: none;/*nenhuma decoração no texto*/
+nav a {
+  text-transform: uppercase; /* transforma o texto para Maiúsculo*/
+  color: black;
+  font-weight: bold; /*Peso da fonte em negrito*/
+  font-size: 23px;
+  text-decoration: none; /*nenhuma decoração no texto*/
+}
+nav a:hover {
+  color: cadetblue;
 }
 
-nav{
-    position: absolute; /* Muda a posição do ponto inicial que o elemento se encontra*/
-   top: 110px;
-   right: 0px;
+nav {
+  position: absolute; /* Muda a posição do ponto inicial que o elemento se encontra*/
+  top: 110px;
+  right: 0px;
 }
 
+.produtos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
 
+.produtos li:hover {
+  border-color: cadetblue;
+ }
+
+.produtos li:active {
+  border-color: chocolate;
+}
+
+.produtos li {
+  display: inline-block; /*elemento fica um ao lado do outro mas eu falo a largura*/
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box; /*Para não somar o percentual mais px*/
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.produtos li:hover h2{
+  font-size: 33px;
+}
+
+.produtos h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.descricao {
+  font-size: 18px;
+}
+
+.preco {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+footer{
+  text-align: center;
+  background: url("bg.jpg");
+  padding: 40px 0;
+}
+
+.footer{
+  color: white;
+  font-size: 14px;
+  margin: 20px;
+}
