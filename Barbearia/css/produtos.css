@@ -1,0 +1,29 @@
+header{
+    background: #BBBBBB;
+    padding: 20px 0; /* tudo dentro dele esteja neste limite*/
+}
+
+.caixa{
+    position: relative; /*mantém o ponto inicial mas levanta o elemento*/
+    width: 940px; /*largura padrão na web*/
+    margin: 0 auto;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;/* transforma o texto para Maiúsculo*/
+    color: black;
+    font-weight: bold; /*Peso da fonte em negrito*/
+    font-size: 23px;
+    text-decoration: none;/*nenhuma decoração no texto*/
+}
+
+nav{
+    position: absolute; /* Muda a posição do ponto inicial que o elemento se encontra*/
+   top: 110px;
+   right: 0px;
+}
